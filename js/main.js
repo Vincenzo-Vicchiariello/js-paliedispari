@@ -40,14 +40,20 @@ let win = "."
 
 if (sum2 % 2 == 0) {
     console.log("Pari!");
-    let win = "pari"
+    win = "pari";
 }
 else {
-    console.log("Dispari!")
-    let win = "dispari"
+    console.log("Dispari!");
+    win = "dispari";
 }
 
 console.log(win);
+
+if (win == choice) {
+    console.log("Congratulazioni! Hai vinto!");
+} else {
+    console.log("Ritenta sarai più fortunato!")
+}
 
 
 /*
